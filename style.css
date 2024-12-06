@@ -1,0 +1,135 @@
+.main {
+    margin-top: 120px;
+    
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJuhs3xtJ0V94n2PYF04yJ7JqFJ3Co7odWQ&s");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff53;
+    border-radius: 10px;
+    box-shadow: 11 40px 40px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkJuhs3xtJ0V94n2PYF04yJ7JqFJ3Co7odWQ&s";
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form input {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form button {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: #727578;
+    color: rgb(255, 253, 253);
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    margin-left: 37px;
+}
+
+.form button:hover {
+    background-color: #007bff;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+   
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+    margin-left: 14px;
+}
+
+.card p {
+    margin: 10px 15px;
+    color: #ffffff;
+    font-size: 0.9em;
+    height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+    padding-left: 5px;
+    word-wrap: break-word;
+    scrollbar-width: thin;
+}
+
+.card .link-price-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card .price {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    height: 39px;
+}
+
+.card a {
+    color: #006fe6;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

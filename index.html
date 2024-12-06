@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Card</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <div class="main">
+        <div class="form">
+            <h2>Create a Card</h2>
+            <form id="cardForm">
+                <input type="url" id="imageInput" placeholder="Enter image URL" required>
+                <input type="text" id="titleInput" placeholder="Enter title" required>
+                <textarea id="descriptionInput" placeholder="Enter description" rows="4" required></textarea>
+                <input type="url" id="linkInput" placeholder="Enter link (e.g., https://example.com)" required>
+                <input type="number" id="priceInput" placeholder="Enter price" required>
+                <button type="submit">Add Card</button>
+            </form>
+        </div>
+        <div class="card-container" id="cardContainer">
+    
+        </div>
+    
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
